@@ -1,0 +1,143 @@
+{
+  "common": {
+    "logoAlt": "Logo Casa das Mandalas",
+    "scrollToNext": "Scorri alla sezione successiva"
+  },
+  "hero": {
+    "title": "Casa das Mandalas",
+    "subtitle": "Un Rifugio Ispirato a una Galleria d'Arte a Monza",
+    "bookNow": "Prenota Ora"
+  },
+  "highlights": {
+    "title": "Punti Salienti della Proprietà",
+    "artwork": {
+      "title": "Arte Mandala Dipinta a Mano",
+      "description": "Oltre 30 pezzi di arte mandala unica e pavimenti in legno caldi"
+    },
+    "livingRoom": {
+      "title": "Soggiorno Accogliente",
+      "description": "Smart TV, divano letto comodo e illuminazione d'atmosfera"
+    },
+    "bedroom": {
+      "title": "Camera da Letto Comoda",
+      "description": "Letto king-size, armadio con specchio e biancheria da letto morbida"
+    },
+    "kitchen": {
+      "title": "Cucina Completamente Attrezzata",
+      "description": "Fornello/forno, frigorifero spazioso, basi per cucinare, lavastoviglie e piatti/posate"
+    },
+    "bathroom": {
+      "title": "Bagno Moderno",
+      "description": "Doccia walk-in in vetro, lavandino designer e specchio retroilluminato"
+    },
+    "amenities": {
+      "title": "Servizi Premium",
+      "description": "Wi‑Fi ultraveloce, aria condizionata, spazio di lavoro dedicato, lavatrice, libri e giochi da tavolo, patio/balcone privato, parcheggio gratuito e altro ancora"
+    }
+  },
+  "gallery": {
+    "title": "Galleria Fotografica",
+    "previous": "← Precedente",
+    "next": "Successivo →",
+    "descriptions": {
+      "1": "Soggiorno",
+      "2": "Cucina",
+      "3": "Camera da letto",
+      "4": "Bagno",
+      "5": "Corridoio",
+      "6": "Dettaglio interno",
+      "7": "Vista interna",
+      "8": "Spazio interno",
+      "9": "Design d'interni",
+      "10": "Dettaglio interno",
+      "11": "Vista interna",
+      "12": "Spazio interno"
+    }
+  },
+  "about": {
+    "title": "Su Casa das Mandalas",
+    "paragraph1": "Benvenuto a <strong>Casa das Mandalas</strong>, un moderno appartamento impeccabile di una camera da letto a Monza, Italia, curato come una galleria d'arte privata. Questo rifugio unico combina il comfort di una casa con l'ispirazione di uno spazio artistico, con oltre 30 opere d'arte mandala dipinte a mano che creano un'atmosfera serena e rilassante.",
+    "paragraph2": "Che tu stia cercando uno spazio di lavoro tranquillo per il lavoro remoto, una fuga romantica o semplicemente un posto dove rilassarti e ricaricarti, Casa das Mandalas offre l'ambiente perfetto. L'appartamento è stato attentamente progettato con attenzione ai dettagli, dai pavimenti in legno caldi agli arredi accuratamente selezionati che completano il tema artistico.",
+    "paragraph3": "Lo spazio è ideale per nomadi digitali, coppie o viaggiatori solitari che apprezzano l'arte, il comfort e la tranquillità. Con uno spazio di lavoro dedicato, Wi‑Fi ultraveloce e tutte le comodità necessarie per un soggiorno confortevole, troverai tutto ciò che serve sia per la produttività che per il relax.",
+    "importantNotes": "Note Importanti:",
+    "noSmoking": "Non è consentito fumare",
+    "noPets": "Non sono ammessi animali domestici",
+    "touristTax": "Si applica la tassa di soggiorno (da pagare separatamente)"
+  },
+  "amenities": {
+    "title": "Servizi",
+    "categories": {
+      "bathroom": "Bagno",
+      "bedroomAndLaundry": "Camera da letto e lavanderia",
+      "entertainment": "Intrattenimento",
+      "family": "Famiglia",
+      "heatingAndCooling": "Riscaldamento e raffreddamento",
+      "homeSafety": "Sicurezza domestica",
+      "internetAndOffice": "Internet e ufficio",
+      "kitchenAndDining": "Cucina e sala da pranzo",
+      "locationFeatures": "Caratteristiche della posizione",
+      "outdoor": "Esterno",
+      "parkingAndFacilities": "Parcheggio e strutture",
+      "services": "Servizi"
+    },
+    "items": {
+      "hairDryer": "Asciugacapelli",
+      "shampoo": "Shampoo",
+      "conditioner": "Balsamo",
+      "bodySoap": "Sapone per il corpo",
+      "bidet": "Bidet",
+      "hotWater": "Acqua calda",
+      "showerGel": "Gel doccia",
+      "washer": "Lavatrice",
+      "essentials": "Essenziali",
+      "hangers": "Appendiabiti",
+      "bedLinens": "Biancheria da letto",
+      "extraPillowsAndBlankets": "Cuscini e coperte extra",
+      "iron": "Ferro da stiro",
+      "mosquitoNet": "Zanzariera",
+      "clothingStorage": "Ripostiglio per abiti",
+      "ethernetConnection": "Connessione Ethernet",
+      "tv": "TV",
+      "booksAndReadingMaterial": "Libri e materiale di lettura",
+      "themeRoom": "Stanza a tema",
+      "windowGuards": "Protezioni per finestre",
+      "boardGames": "Giochi da tavolo",
+      "airConditioning": "Aria condizionata",
+      "heating": "Riscaldamento",
+      "smokeAlarm": "Allarme fumo",
+      "carbonMonoxideAlarm": "Allarme monossido di carbonio",
+      "fireExtinguisher": "Estintore",
+      "firstAidKit": "Kit di pronto soccorso",
+      "wifi": "Wi-Fi",
+      "dedicatedWorkspace": "Spazio di lavoro dedicato",
+      "kitchen": "Cucina",
+      "refrigerator": "Frigorifero",
+      "cookingBasics": "Basi per cucinare",
+      "dishesAndSilverware": "Piatti e posate",
+      "freezer": "Congelatore",
+      "dishwasher": "Lavastoviglie",
+      "stove": "Fornello",
+      "oven": "Forno",
+      "coffeeMaker": "Macchina per il caffè",
+      "toaster": "Tostapane",
+      "diningTable": "Tavolo da pranzo",
+      "privateEntrance": "Ingresso privato",
+      "laundromatNearby": "Lavanderia nelle vicinanze",
+      "privatePatioOrBalcony": "Patio o balcone privato",
+      "freeParkingOnPremises": "Parcheggio gratuito in loco",
+      "freeStreetParking": "Parcheggio gratuito in strada",
+      "paidStreetParkingOffPremises": "Parcheggio a pagamento in strada fuori sede",
+      "paidParkingOnPremises": "Parcheggio a pagamento in loco",
+      "longTermStaysAllowed": "Soggiorni a lungo termine consentiti",
+      "selfCheckIn": "Check-in autonomo",
+      "housekeepingAvailable": "Servizio di pulizia disponibile"
+    }
+  },
+  "cta": {
+    "title": "Pronto a Prenotare il Tuo Soggiorno?",
+    "description": "Vivi il fascino unico di Casa das Mandalas. Contattaci direttamente tramite WhatsApp per prenotazioni istantanee o richieste.",
+    "messageOnWhatsapp": "Invia Messaggio su WhatsApp",
+    "responseTime": "Di solito rispondiamo entro pochi minuti!"
+  }
+}
+

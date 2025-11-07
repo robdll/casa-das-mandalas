@@ -1,0 +1,143 @@
+{
+  "common": {
+    "logoAlt": "Casa das Mandalas Logo",
+    "scrollToNext": "Scroll to next section"
+  },
+  "hero": {
+    "title": "Casa das Mandalas",
+    "subtitle": "A Cozy Art Gallery‑Inspired Retreat in Monza",
+    "bookNow": "Book Now"
+  },
+  "highlights": {
+    "title": "Property Highlights",
+    "artwork": {
+      "title": "Hand-painted Mandala Artwork",
+      "description": "30+ pieces of unique mandala art and warm wooden floors"
+    },
+    "livingRoom": {
+      "title": "Cozy Living Room",
+      "description": "Smart TV, comfy sofa bed, and mood lighting"
+    },
+    "bedroom": {
+      "title": "Comfortable Bedroom",
+      "description": "King-size bed, mirrored wardrobe, and soft linens"
+    },
+    "kitchen": {
+      "title": "Fully Equipped Kitchen",
+      "description": "Stove/oven, spacious fridge, cooking basics, dishwasher, and dishes/silverware"
+    },
+    "bathroom": {
+      "title": "Modern Bathroom",
+      "description": "Glass walk-in shower, designer sink, and back-lit mirror"
+    },
+    "amenities": {
+      "title": "Premium Amenities",
+      "description": "Ultrafast Wi‑Fi, air conditioning, dedicated workspace, washer, books & board games, private patio/balcony, free parking, and more"
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "previous": "← Previous",
+    "next": "Next →",
+    "descriptions": {
+      "1": "Living room",
+      "2": "Kitchen",
+      "3": "Bedroom",
+      "4": "Bathroom",
+      "5": "Hallway",
+      "6": "Interior detail",
+      "7": "Interior view",
+      "8": "Interior space",
+      "9": "Interior design",
+      "10": "Interior detail",
+      "11": "Interior view",
+      "12": "Interior space"
+    }
+  },
+  "about": {
+    "title": "About Casa das Mandalas",
+    "paragraph1": "Welcome to <strong>Casa das Mandalas</strong>, a modern, spotless one‑bedroom apartment in Monza, Italy, curated as a private art gallery. This unique retreat combines the comfort of a home with the inspiration of an art space, featuring over 30 hand‑painted mandala artworks that create a serene and relaxing atmosphere.",
+    "paragraph2": "Whether you're seeking a peaceful workspace for remote work, a romantic getaway, or simply a place to unwind and recharge, Casa das Mandalas offers the perfect setting. The apartment has been thoughtfully designed with attention to detail, from the warm wooden floors to the carefully selected furnishings that complement the artistic theme.",
+    "paragraph3": "The space is ideal for digital nomads, couples, or solo travelers who appreciate art, comfort, and tranquility. With a dedicated workspace, ultrafast Wi‑Fi, and all the amenities you need for a comfortable stay, you'll find everything required for both productivity and relaxation.",
+    "importantNotes": "Important Notes:",
+    "noSmoking": "No smoking allowed",
+    "noPets": "No pets allowed",
+    "touristTax": "Tourist tax applies (to be paid separately)"
+  },
+  "amenities": {
+    "title": "Amenities",
+    "categories": {
+      "bathroom": "Bathroom",
+      "bedroomAndLaundry": "Bedroom and laundry",
+      "entertainment": "Entertainment",
+      "family": "Family",
+      "heatingAndCooling": "Heating and cooling",
+      "homeSafety": "Home safety",
+      "internetAndOffice": "Internet and office",
+      "kitchenAndDining": "Kitchen and dining",
+      "locationFeatures": "Location features",
+      "outdoor": "Outdoor",
+      "parkingAndFacilities": "Parking and facilities",
+      "services": "Services"
+    },
+    "items": {
+      "hairDryer": "Hair dryer",
+      "shampoo": "Shampoo",
+      "conditioner": "Conditioner",
+      "bodySoap": "Body soap",
+      "bidet": "Bidet",
+      "hotWater": "Hot water",
+      "showerGel": "Shower gel",
+      "washer": "Washer",
+      "essentials": "Essentials",
+      "hangers": "Hangers",
+      "bedLinens": "Bed linens",
+      "extraPillowsAndBlankets": "Extra pillows and blankets",
+      "iron": "Iron",
+      "mosquitoNet": "Mosquito net",
+      "clothingStorage": "Clothing storage",
+      "ethernetConnection": "Ethernet connection",
+      "tv": "TV",
+      "booksAndReadingMaterial": "Books and reading material",
+      "themeRoom": "Theme room",
+      "windowGuards": "Window guards",
+      "boardGames": "Board games",
+      "airConditioning": "Air conditioning",
+      "heating": "Heating",
+      "smokeAlarm": "Smoke alarm",
+      "carbonMonoxideAlarm": "Carbon monoxide alarm",
+      "fireExtinguisher": "Fire extinguisher",
+      "firstAidKit": "First aid kit",
+      "wifi": "Wifi",
+      "dedicatedWorkspace": "Dedicated workspace",
+      "kitchen": "Kitchen",
+      "refrigerator": "Refrigerator",
+      "cookingBasics": "Cooking basics",
+      "dishesAndSilverware": "Dishes and silverware",
+      "freezer": "Freezer",
+      "dishwasher": "Dishwasher",
+      "stove": "Stove",
+      "oven": "Oven",
+      "coffeeMaker": "Coffee maker",
+      "toaster": "Toaster",
+      "diningTable": "Dining table",
+      "privateEntrance": "Private entrance",
+      "laundromatNearby": "Laundromat nearby",
+      "privatePatioOrBalcony": "Private patio or balcony",
+      "freeParkingOnPremises": "Free parking on premises",
+      "freeStreetParking": "Free street parking",
+      "paidStreetParkingOffPremises": "Paid street parking off premises",
+      "paidParkingOnPremises": "Paid parking on premises",
+      "longTermStaysAllowed": "Long term stays allowed",
+      "selfCheckIn": "Self check-in",
+      "housekeepingAvailable": "Housekeeping available"
+    }
+  },
+  "cta": {
+    "title": "Ready to Book Your Stay?",
+    "description": "Experience the unique charm of Casa das Mandalas. Contact us directly via WhatsApp for instant booking or inquiries.",
+    "messageOnWhatsapp": "Message on WhatsApp",
+    "responseTime": "We typically respond within a few minutes!"
+  }
+}
+

@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import { cookies } from "next/headers";
 import "./globals.css";
 import Logo from "./components/Logo";
+import LanguageSelector from "./components/LanguageSelector";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,18 +53,28 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
+  // Get locale from cookie, default to 'en'
+  const cookieStore = await cookies();
+  const locale = cookieStore.get('NEXT_LOCALE')?.value || 'en';
+  
+  // Set locale for next-intl
+  const messages = await getMessages({ locale });
+
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang={locale} className="scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Logo />
-        {children}
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Logo />
+          <LanguageSelector />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

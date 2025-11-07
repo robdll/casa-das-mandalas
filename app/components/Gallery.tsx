@@ -2,29 +2,19 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Gallery() {
+  const t = useTranslations();
+  
   // Image paths using local images from public/images/
   const images = Array.from({ length: 12 }, (_, i) => {
     const imageNum = i + 1;
-    const imageDescriptions: { [key: number]: string } = {
-      1: 'Living room',
-      2: 'Kitchen',
-      3: 'Bedroom',
-      4: 'Bathroom',
-      5: 'Hallway',
-      6: 'Interior detail',
-      7: 'Interior view',
-      8: 'Interior space',
-      9: 'Interior design',
-      10: 'Interior detail',
-      11: 'Interior view',
-      12: 'Interior space',
-    };
+    const description = t(`gallery.descriptions.${imageNum}` as any);
     return {
       id: imageNum,
       src: `/images/house_${imageNum}.jpg`,
-      alt: `Casa das Mandalas - ${imageDescriptions[imageNum] || `Interior ${imageNum}`}`,
+      alt: `Casa das Mandalas - ${description}`,
     };
   });
 
@@ -34,7 +24,7 @@ export default function Gallery() {
     <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-900">
-          Photo Gallery
+          {t("gallery.title")}
         </h2>
 
         {/* Image Grid */}
@@ -87,7 +77,7 @@ export default function Gallery() {
                   }}
                   className="px-4 py-2 bg-white/20 hover:bg-white/30 rounded transition-colors"
                 >
-                  ← Previous
+                  {t("gallery.previous")}
                 </button>
                 <span className="self-center">
                   {selectedImage} / {images.length}
@@ -101,7 +91,7 @@ export default function Gallery() {
                   }}
                   className="px-4 py-2 bg-white/20 hover:bg-white/30 rounded transition-colors"
                 >
-                  Next →
+                  {t("gallery.next")}
                 </button>
               </div>
             </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import {
   FaShower,
   FaTv,
@@ -25,147 +26,148 @@ import {
 import { BiSolidWasher } from "react-icons/bi";
 
 interface Amenity {
-  name: string;
+  nameKey: string;
   icon: React.ReactNode;
 }
 
 interface AmenityCategory {
-  name: string;
+  nameKey: string;
   icon: React.ReactNode;
   items: Amenity[];
 }
 
 export default function Amenities() {
+  const t = useTranslations();
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
 
   const categories: AmenityCategory[] = [
     {
-      name: "Bathroom",
+      nameKey: "bathroom",
       icon: <FaShower className="w-5 h-5" />,
       items: [
-        { name: "Hair dryer", icon: <FaShower className="w-4 h-4" /> },
-        { name: "Shampoo", icon: <FaShower className="w-4 h-4" /> },
-        { name: "Conditioner", icon: <FaShower className="w-4 h-4" /> },
-        { name: "Body soap", icon: <FaShower className="w-4 h-4" /> },
-        { name: "Bidet", icon: <FaShower className="w-4 h-4" /> },
-        { name: "Hot water", icon: <FaShower className="w-4 h-4" /> },
-        { name: "Shower gel", icon: <FaShower className="w-4 h-4" /> },
+        { nameKey: "hairDryer", icon: <FaShower className="w-4 h-4" /> },
+        { nameKey: "shampoo", icon: <FaShower className="w-4 h-4" /> },
+        { nameKey: "conditioner", icon: <FaShower className="w-4 h-4" /> },
+        { nameKey: "bodySoap", icon: <FaShower className="w-4 h-4" /> },
+        { nameKey: "bidet", icon: <FaShower className="w-4 h-4" /> },
+        { nameKey: "hotWater", icon: <FaShower className="w-4 h-4" /> },
+        { nameKey: "showerGel", icon: <FaShower className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Bedroom and laundry",
+      nameKey: "bedroomAndLaundry",
       icon: <MdLocalLaundryService className="w-5 h-5" />,
       items: [
-        { name: "Washer", icon: <BiSolidWasher className="w-4 h-4" /> },
-        { name: "Essentials", icon: <FaHome className="w-4 h-4" /> },
-        { name: "Hangers", icon: <FaHome className="w-4 h-4" /> },
-        { name: "Bed linens", icon: <FaHome className="w-4 h-4" /> },
-        { name: "Extra pillows and blankets", icon: <FaHome className="w-4 h-4" /> },
-        { name: "Iron", icon: <FaHome className="w-4 h-4" /> },
-        { name: "Mosquito net", icon: <FaHome className="w-4 h-4" /> },
-        { name: "Clothing storage", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "washer", icon: <BiSolidWasher className="w-4 h-4" /> },
+        { nameKey: "essentials", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "hangers", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "bedLinens", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "extraPillowsAndBlankets", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "iron", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "mosquitoNet", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "clothingStorage", icon: <FaHome className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Entertainment",
+      nameKey: "entertainment",
       icon: <FaTv className="w-5 h-5" />,
       items: [
-        { name: "Ethernet connection", icon: <FaWifi className="w-4 h-4" /> },
-        { name: "TV", icon: <FaTv className="w-4 h-4" /> },
-        { name: "Books and reading material", icon: <FaBook className="w-4 h-4" /> },
-        { name: "Theme room", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "ethernetConnection", icon: <FaWifi className="w-4 h-4" /> },
+        { nameKey: "tv", icon: <FaTv className="w-4 h-4" /> },
+        { nameKey: "booksAndReadingMaterial", icon: <FaBook className="w-4 h-4" /> },
+        { nameKey: "themeRoom", icon: <FaHome className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Family",
+      nameKey: "family",
       icon: <MdFamilyRestroom className="w-5 h-5" />,
       items: [
-        { name: "Window guards", icon: <FaHome className="w-4 h-4" /> },
-        { name: "Board games", icon: <FaGamepad className="w-4 h-4" /> },
+        { nameKey: "windowGuards", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "boardGames", icon: <FaGamepad className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Heating and cooling",
+      nameKey: "heatingAndCooling",
       icon: <FaSnowflake className="w-5 h-5" />,
       items: [
-        { name: "Air conditioning", icon: <FaSnowflake className="w-4 h-4" /> },
-        { name: "Heating", icon: <FaSnowflake className="w-4 h-4" /> },
+        { nameKey: "airConditioning", icon: <FaSnowflake className="w-4 h-4" /> },
+        { nameKey: "heating", icon: <FaSnowflake className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Home safety",
+      nameKey: "homeSafety",
       icon: <MdSecurity className="w-5 h-5" />,
       items: [
-        { name: "Smoke alarm", icon: <MdSecurity className="w-4 h-4" /> },
-        { name: "Carbon monoxide alarm", icon: <MdSecurity className="w-4 h-4" /> },
-        { name: "Fire extinguisher", icon: <MdSecurity className="w-4 h-4" /> },
-        { name: "First aid kit", icon: <MdSecurity className="w-4 h-4" /> },
+        { nameKey: "smokeAlarm", icon: <MdSecurity className="w-4 h-4" /> },
+        { nameKey: "carbonMonoxideAlarm", icon: <MdSecurity className="w-4 h-4" /> },
+        { nameKey: "fireExtinguisher", icon: <MdSecurity className="w-4 h-4" /> },
+        { nameKey: "firstAidKit", icon: <MdSecurity className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Internet and office",
+      nameKey: "internetAndOffice",
       icon: <FaLaptop className="w-5 h-5" />,
       items: [
-        { name: "Wifi", icon: <FaWifi className="w-4 h-4" /> },
-        { name: "Dedicated workspace", icon: <FaLaptop className="w-4 h-4" /> },
+        { nameKey: "wifi", icon: <FaWifi className="w-4 h-4" /> },
+        { nameKey: "dedicatedWorkspace", icon: <FaLaptop className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Kitchen and dining",
+      nameKey: "kitchenAndDining",
       icon: <FaUtensils className="w-5 h-5" />,
       items: [
-        { name: "Kitchen", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Refrigerator", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Cooking basics", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Dishes and silverware", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Freezer", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Dishwasher", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Stove", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Oven", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Coffee maker", icon: <MdCoffeeMaker className="w-4 h-4" /> },
-        { name: "Toaster", icon: <FaUtensils className="w-4 h-4" /> },
-        { name: "Dining table", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "kitchen", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "refrigerator", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "cookingBasics", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "dishesAndSilverware", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "freezer", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "dishwasher", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "stove", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "oven", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "coffeeMaker", icon: <MdCoffeeMaker className="w-4 h-4" /> },
+        { nameKey: "toaster", icon: <FaUtensils className="w-4 h-4" /> },
+        { nameKey: "diningTable", icon: <FaUtensils className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Location features",
+      nameKey: "locationFeatures",
       icon: <FaHome className="w-5 h-5" />,
       items: [
-        { name: "Private entrance", icon: <FaHome className="w-4 h-4" /> },
-        { name: "Laundromat nearby", icon: <MdLocalLaundryService className="w-4 h-4" /> },
+        { nameKey: "privateEntrance", icon: <FaHome className="w-4 h-4" /> },
+        { nameKey: "laundromatNearby", icon: <MdLocalLaundryService className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Outdoor",
+      nameKey: "outdoor",
       icon: <MdBalcony className="w-5 h-5" />,
       items: [
-        { name: "Private patio or balcony", icon: <MdBalcony className="w-4 h-4" /> },
+        { nameKey: "privatePatioOrBalcony", icon: <MdBalcony className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Parking and facilities",
+      nameKey: "parkingAndFacilities",
       icon: <FaCar className="w-5 h-5" />,
       items: [
-        { name: "Free parking on premises", icon: <FaCar className="w-4 h-4" /> },
-        { name: "Free street parking", icon: <FaCar className="w-4 h-4" /> },
-        { name: "Paid street parking off premises", icon: <FaCar className="w-4 h-4" /> },
-        { name: "Paid parking on premises", icon: <FaCar className="w-4 h-4" /> },
+        { nameKey: "freeParkingOnPremises", icon: <FaCar className="w-4 h-4" /> },
+        { nameKey: "freeStreetParking", icon: <FaCar className="w-4 h-4" /> },
+        { nameKey: "paidStreetParkingOffPremises", icon: <FaCar className="w-4 h-4" /> },
+        { nameKey: "paidParkingOnPremises", icon: <FaCar className="w-4 h-4" /> },
       ],
     },
     {
-      name: "Services",
+      nameKey: "services",
       icon: <FaKey className="w-5 h-5" />,
       items: [
-        { name: "Long term stays allowed", icon: <FaKey className="w-4 h-4" /> },
-        { name: "Self check-in", icon: <FaKey className="w-4 h-4" /> },
-        { name: "Housekeeping available", icon: <FaBroom className="w-4 h-4" /> },
+        { nameKey: "longTermStaysAllowed", icon: <FaKey className="w-4 h-4" /> },
+        { nameKey: "selfCheckIn", icon: <FaKey className="w-4 h-4" /> },
+        { nameKey: "housekeepingAvailable", icon: <FaBroom className="w-4 h-4" /> },
       ],
     },
   ];
 
-  const toggleCategory = (categoryName: string) => {
+  const toggleCategory = (categoryNameKey: string) => {
     setExpandedCategory(
-      expandedCategory === categoryName ? null : categoryName
+      expandedCategory === categoryNameKey ? null : categoryNameKey
     );
   };
 
@@ -173,27 +175,27 @@ export default function Amenities() {
     <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-900">
-          Amenities
+          {t("amenities.title")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {categories.map((category) => (
             <div
-              key={category.name}
+              key={category.nameKey}
               className="bg-white rounded-lg border border-gray-200 overflow-hidden"
             >
               <button
-                onClick={() => toggleCategory(category.name)}
+                onClick={() => toggleCategory(category.nameKey)}
                 className="w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors"
               >
                 <div className="flex items-center gap-3">
                   <div className="text-gray-600">{category.icon}</div>
                   <h3 className="text-lg font-semibold text-gray-900">
-                    {category.name}
+                    {t(`amenities.categories.${category.nameKey}`)}
                   </h3>
                 </div>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
-                    expandedCategory === category.name ? "rotate-180" : ""
+                    expandedCategory === category.nameKey ? "rotate-180" : ""
                   }`}
                   fill="none"
                   strokeLinecap="round"
@@ -205,7 +207,7 @@ export default function Amenities() {
                   <path d="M19 9l-7 7-7-7"></path>
                 </svg>
               </button>
-              {expandedCategory === category.name && (
+              {expandedCategory === category.nameKey && (
                 <div className="px-6 py-4 border-t border-gray-200">
                   <ul className="space-y-2">
                     {category.items.map((item, index) => (
@@ -214,7 +216,7 @@ export default function Amenities() {
                         className="flex items-center gap-2 text-gray-700"
                       >
                         <span className="text-gray-400">{item.icon}</span>
-                        <span>{item.name}</span>
+                        <span>{t(`amenities.items.${item.nameKey}`)}</span>
                       </li>
                     ))}
                   </ul>
@@ -227,4 +229,3 @@ export default function Amenities() {
     </section>
   );
 }
-
