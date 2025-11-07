@@ -1,44 +1,44 @@
 {
   "common": {
-    "logoAlt": "Logo Casa das Mandalas",
+    "logoAlt": "Logo di Casa das Mandalas",
     "scrollToNext": "Scorri alla sezione successiva"
   },
   "hero": {
     "title": "Casa das Mandalas",
-    "subtitle": "Un Rifugio Ispirato a una Galleria d'Arte a Monza",
-    "bookNow": "Prenota Ora"
+    "subtitle": "Un accogliente rifugio ispirato a una galleria d’arte a Monza",
+    "bookNow": "Prenota ora"
   },
   "highlights": {
-    "title": "Punti Salienti della Proprietà",
+    "title": "Punti salienti dell’alloggio",
     "artwork": {
-      "title": "Arte Mandala Dipinta a Mano",
-      "description": "Oltre 30 pezzi di arte mandala unica e pavimenti in legno caldi"
+      "title": "Mandala dipinti a mano",
+      "description": "Oltre 30 opere uniche e pavimenti in legno caldo"
     },
     "livingRoom": {
-      "title": "Soggiorno Accogliente",
-      "description": "Smart TV, divano letto comodo e illuminazione d'atmosfera"
+      "title": "Soggiorno accogliente",
+      "description": "Smart TV, comodo divano letto e illuminazione soffusa"
     },
     "bedroom": {
-      "title": "Camera da Letto Comoda",
-      "description": "Letto king-size, armadio con specchio e biancheria da letto morbida"
+      "title": "Camera confortevole",
+      "description": "Letto king-size, armadio con specchio e lenzuola morbide"
     },
     "kitchen": {
-      "title": "Cucina Completamente Attrezzata",
-      "description": "Fornello/forno, frigorifero spazioso, basi per cucinare, lavastoviglie e piatti/posate"
+      "title": "Cucina completamente attrezzata",
+      "description": "Piano cottura e forno, frigorifero spazioso, utensili base, lavastoviglie e stoviglie"
     },
     "bathroom": {
-      "title": "Bagno Moderno",
-      "description": "Doccia walk-in in vetro, lavandino designer e specchio retroilluminato"
+      "title": "Bagno moderno",
+      "description": "Doccia in vetro, lavabo di design e specchio retroilluminato"
     },
     "amenities": {
-      "title": "Servizi Premium",
-      "description": "Wi‑Fi ultraveloce, aria condizionata, spazio di lavoro dedicato, lavatrice, libri e giochi da tavolo, patio/balcone privato, parcheggio gratuito e altro ancora"
+      "title": "Servizi premium",
+      "description": "Wi-Fi ultraveloce, aria condizionata, area lavoro dedicata, lavatrice, libri e giochi da tavolo, balcone o patio privato, parcheggio gratuito e molto altro"
     }
   },
   "gallery": {
-    "title": "Galleria Fotografica",
+    "title": "Galleria fotografica",
     "previous": "← Precedente",
-    "next": "Successivo →",
+    "next": "Successiva →",
     "descriptions": {
       "1": "Soggiorno",
       "2": "Cucina",
@@ -48,7 +48,7 @@
       "6": "Dettaglio interno",
       "7": "Vista interna",
       "8": "Spazio interno",
-      "9": "Design d'interni",
+      "9": "Design d’interni",
       "10": "Dettaglio interno",
       "11": "Vista interna",
       "12": "Spazio interno"
@@ -56,14 +56,15 @@
   },
   "about": {
     "title": "Su Casa das Mandalas",
-    "paragraph1": "Benvenuto a <strong>Casa das Mandalas</strong>, un moderno appartamento impeccabile di una camera da letto a Monza, Italia, curato come una galleria d'arte privata. Questo rifugio unico combina il comfort di una casa con l'ispirazione di uno spazio artistico, con oltre 30 opere d'arte mandala dipinte a mano che creano un'atmosfera serena e rilassante.",
-    "paragraph2": "Che tu stia cercando uno spazio di lavoro tranquillo per il lavoro remoto, una fuga romantica o semplicemente un posto dove rilassarti e ricaricarti, Casa das Mandalas offre l'ambiente perfetto. L'appartamento è stato attentamente progettato con attenzione ai dettagli, dai pavimenti in legno caldi agli arredi accuratamente selezionati che completano il tema artistico.",
-    "paragraph3": "Lo spazio è ideale per nomadi digitali, coppie o viaggiatori solitari che apprezzano l'arte, il comfort e la tranquillità. Con uno spazio di lavoro dedicato, Wi‑Fi ultraveloce e tutte le comodità necessarie per un soggiorno confortevole, troverai tutto ciò che serve sia per la produttività che per il relax.",
-    "importantNotes": "Note Importanti:",
-    "noSmoking": "Non è consentito fumare",
-    "noPets": "Non sono ammessi animali domestici",
-    "touristTax": "Si applica la tassa di soggiorno (da pagare separatamente)"
+    "paragraph1": "Benvenuti alla <strong>Casa das Mandalas</strong>, un moderno appartamento bilocale a Monza, curato come una piccola galleria d’arte privata. Oltre 30 mandala dipinti a mano creano un’atmosfera rilassante e ispirata.",
+    "paragraph2": "Perfetto per chi cerca uno spazio tranquillo per lavorare, un soggiorno romantico o semplicemente qualche giorno di relax. Ogni dettaglio, dai pavimenti in legno all’arredo scelto con cura, riflette armonia e buon gusto.",
+    "paragraph3": "Ideale per nomadi digitali, coppie o viaggiatori solitari che apprezzano arte, comfort e serenità. Con Wi-Fi ultraveloce, area lavoro e tutti i comfort, troverai tutto ciò che serve per sentirti a casa.",
+    "importantNotes": "Note importanti:",
+    "noSmoking": "Vietato fumare",
+    "noPets": "Animali non ammessi",
+    "touristTax": "Tassa di soggiorno applicata (da pagare separatamente)"
   },
+
   "amenities": {
     "title": "Servizi",
     "categories": {
@@ -134,10 +135,10 @@
     }
   },
   "cta": {
-    "title": "Pronto a Prenotare il Tuo Soggiorno?",
-    "description": "Vivi il fascino unico di Casa das Mandalas. Contattaci direttamente tramite WhatsApp per prenotazioni istantanee o richieste.",
-    "messageOnWhatsapp": "Invia Messaggio su WhatsApp",
-    "responseTime": "Di solito rispondiamo entro pochi minuti!"
+    "title": "Pronto a prenotare il tuo soggiorno?",
+    "description": "Scopri il fascino unico di Casa das Mandalas. Contattaci su WhatsApp per prenotare o ricevere informazioni in tempo reale.",
+    "messageOnWhatsapp": "Scrivici su WhatsApp",
+    "responseTime": "Di solito rispondiamo in pochi minuti!"
   }
 }
 

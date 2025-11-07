@@ -1,68 +1,68 @@
 {
   "common": {
-    "logoAlt": "Logo Casa das Mandalas",
+    "logoAlt": "Logotipo de Casa das Mandalas",
     "scrollToNext": "Desplazar a la siguiente sección"
   },
   "hero": {
     "title": "Casa das Mandalas",
-    "subtitle": "Un Refugio Inspirado en Galería de Arte en Monza",
-    "bookNow": "Reservar Ahora"
+    "subtitle": "Un acogedor refugio con alma de galería de arte en Monza",
+    "bookNow": "Reservar ahora"
   },
   "highlights": {
-    "title": "Destacados de la Propiedad",
+    "title": "Aspectos destacados",
     "artwork": {
-      "title": "Arte Mandala Pintado a Mano",
-      "description": "Más de 30 piezas de arte mandala único y suelos de madera cálidos"
+      "title": "Mandala pintadas a mano",
+      "description": "Más de 30 obras únicas y suelos de madera que aportan calidez"
     },
     "livingRoom": {
-      "title": "Salón Acogedor",
-      "description": "Smart TV, sofá cama cómodo e iluminación ambiental"
+      "title": "Sala de estar acogedora",
+      "description": "Smart TV, sofá-cama cómodo e iluminación ambiental"
     },
     "bedroom": {
-      "title": "Dormitorio Cómodo",
-      "description": "Cama king-size, armario con espejo y ropa de cama suave"
+      "title": "Dormitorio confortable",
+      "description": "Cama king-size, armario con espejo y sábanas suaves"
     },
     "kitchen": {
-      "title": "Cocina Completamente Equipada",
-      "description": "Cocina/horno, nevera espaciosa, básicos de cocina, lavavajillas y platos/cubiertos"
+      "title": "Cocina totalmente equipada",
+      "description": "Cocina y horno, nevera amplia, utensilios básicos, lavavajillas y vajilla completa"
     },
     "bathroom": {
-      "title": "Baño Moderno",
-      "description": "Ducha de vidrio, lavabo de diseño y espejo con iluminación trasera"
+      "title": "Baño moderno",
+      "description": "Ducha de vidrio, lavabo de diseño y espejo retroiluminado"
     },
     "amenities": {
-      "title": "Comodidades Premium",
-      "description": "Wi‑Fi ultrarrápido, aire acondicionado, espacio de trabajo dedicado, lavadora, libros y juegos de mesa, patio/balcón privado, aparcamiento gratuito y más"
+      "title": "Comodidades premium",
+      "description": "Wi-Fi ultrarrápido, aire acondicionado, zona de trabajo, lavadora, libros y juegos, balcón o patio privado, aparcamiento gratuito y más"
     }
   },
   "gallery": {
-    "title": "Galería de Fotos",
+    "title": "Galería de fotos",
     "previous": "← Anterior",
     "next": "Siguiente →",
     "descriptions": {
-      "1": "Salón",
+      "1": "Sala de estar",
       "2": "Cocina",
       "3": "Dormitorio",
       "4": "Baño",
       "5": "Pasillo",
-      "6": "Detalle del interior",
-      "7": "Vista del interior",
+      "6": "Detalle interior",
+      "7": "Vista interior",
       "8": "Espacio interior",
-      "9": "Diseño de interiores",
-      "10": "Detalle del interior",
-      "11": "Vista del interior",
+      "9": "Diseño interior",
+      "10": "Detalle interior",
+      "11": "Vista interior",
       "12": "Espacio interior"
     }
   },
   "about": {
     "title": "Sobre Casa das Mandalas",
-    "paragraph1": "Bienvenido a <strong>Casa das Mandalas</strong>, un apartamento moderno e impecable de un dormitorio en Monza, Italia, curado como una galería de arte privada. Este refugio único combina la comodidad de un hogar con la inspiración de un espacio artístico, con más de 30 obras de arte mandala pintadas a mano que crean una atmósfera serena y relajante.",
-    "paragraph2": "Ya sea que busque un espacio de trabajo tranquilo para trabajo remoto, una escapada romántica o simplemente un lugar para relajarse y recargar energías, Casa das Mandalas ofrece el entorno perfecto. El apartamento ha sido cuidadosamente diseñado con atención al detalle, desde los suelos de madera cálidos hasta los muebles cuidadosamente seleccionados que complementan el tema artístico.",
-    "paragraph3": "El espacio es ideal para nómadas digitales, parejas o viajeros solitarios que aprecian el arte, la comodidad y la tranquilidad. Con un espacio de trabajo dedicado, Wi‑Fi ultrarrápido y todas las comodidades necesarias para una estancia cómoda, encontrará todo lo necesario tanto para la productividad como para la relajación.",
-    "importantNotes": "Notas Importantes:",
+    "paragraph1": "Bienvenido a <strong>Casa das Mandalas</strong>, un moderno y luminoso apartamento de un dormitorio en Monza, Italia, diseñado como una galería de arte privada. Más de 30 mandalas pintadas a mano crean una atmósfera serena e inspiradora.",
+    "paragraph2": "Ideal para trabajar de forma tranquila, disfrutar de una escapada romántica o simplemente desconectar. Cada detalle, desde los suelos de madera hasta el mobiliario elegido, está pensado para combinar arte y confort.",
+    "paragraph3": "Perfecto para nómadas digitales, parejas o viajeros solitarios que valoran la tranquilidad. Con Wi-Fi ultrarrápido, zona de trabajo y todas las comodidades necesarias, tendrás todo para sentirte como en casa.",
+    "importantNotes": "Notas importantes:",
     "noSmoking": "No se permite fumar",
-    "noPets": "No se permiten mascotas",
-    "touristTax": "Se aplica impuesto turístico (a pagar por separado)"
+    "noPets": "No se admiten mascotas",
+    "touristTax": "Se aplica tasa turística (a pagar aparte)"
   },
   "amenities": {
     "title": "Comodidades",
@@ -134,10 +134,10 @@
     }
   },
   "cta": {
-    "title": "¿Listo para Reservar tu Estancia?",
-    "description": "Experimenta el encanto único de Casa das Mandalas. Contáctanos directamente a través de WhatsApp para reservas instantáneas o consultas.",
-    "messageOnWhatsapp": "Enviar Mensaje por WhatsApp",
-    "responseTime": "¡Normalmente respondemos en pocos minutos!"
+    "title": "¿Listo para reservar tu estancia?",
+    "description": "Vive el encanto único de Casa das Mandalas. Contáctanos directamente por WhatsApp para reservar o resolver tus dudas al instante.",
+    "messageOnWhatsapp": "Enviar mensaje por WhatsApp",
+    "responseTime": "¡Solemos responder en pocos minutos!"
   }
 }
 
