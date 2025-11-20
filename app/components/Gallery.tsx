@@ -8,12 +8,13 @@ export default function Gallery() {
   const t = useTranslations();
   
   // Image paths using local images from public/images/
-  const images = Array.from({ length: 12 }, (_, i) => {
+  const images = Array.from({ length: 21 }, (_, i) => {
     const imageNum = i + 1;
     const description = t(`gallery.descriptions.${imageNum}` as any);
+    const imageExtension = i > 11 ? "webp" : "jpg";
     return {
       id: imageNum,
-      src: `/images/house_${imageNum}.jpg`,
+      src: `/images/house_${imageNum}.${imageExtension}`,
       alt: `Casa das Mandalas - ${description}`,
     };
   });
@@ -32,7 +33,7 @@ export default function Gallery() {
           {images.map((image) => (
             <div
               key={image.id}
-              className="relative aspect-[4/3] rounded-lg overflow-hidden cursor-pointer group"
+              className="relative aspect-4/3 rounded-lg overflow-hidden cursor-pointer group"
               onClick={() => setSelectedImage(image.id)}
             >
               <Image
