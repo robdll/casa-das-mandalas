@@ -5,7 +5,7 @@
   },
   "hero": {
     "title": "Casa das Mandalas",
-    "subtitle": "Un accogliente rifugio ispirato a una galleria d’arte a Monza",
+    "subtitle": "Un accogliente rifugio d’arte nel cuore di Monza",
     "bookNow": "Prenota ora"
   },
   "highlights": {
@@ -147,7 +147,55 @@
     "title": "Pronto a prenotare il tuo soggiorno?",
     "description": "Scopri il fascino unico di Casa das Mandalas. Contattaci su WhatsApp per prenotare o ricevere informazioni in tempo reale.",
     "messageOnWhatsapp": "Scrivici su WhatsApp",
+    "or": "oppure",
     "responseTime": "Di solito rispondiamo in pochi minuti!"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "description": "Compila il modulo qui sotto e ti risponderemo il prima possibile.",
+    "submit": "Invia Messaggio",
+    "submitting": "Invio in corso...",
+    "fields": {
+      "name": {
+        "label": "Nome",
+        "placeholder": "Il tuo nome completo"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "tua.email@esempio.com"
+      },
+      "phone": {
+        "label": "Telefono",
+        "placeholder": "+39 123 456 7890"
+      },
+      "eventType": {
+        "label": "Tipo di Evento",
+        "placeholder": "Seleziona tipo di evento",
+        "options": {
+          "vacation": "Vacanza",
+          "business": "Lavoro",
+          "romantic": "Fuga Romantica",
+          "other": "Altro"
+        }
+      },
+      "numberOfGuests": {
+        "label": "Numero di Ospiti",
+        "placeholder": "1"
+      },
+      "message": {
+        "label": "Messaggio",
+        "placeholder": "Raccontaci di più sul tuo soggiorno..."
+      }
+    },
+    "success": {
+      "title": "Messaggio Inviato con Successo!",
+      "message": "Ti risponderemo entro 24 ore."
+    },
+    "errors": {
+      "title": "Errore",
+      "submissionFailed": "Invio del messaggio fallito. Riprova.",
+      "fallback": "In alternativa, puoi contattarci direttamente via WhatsApp."
+    }
   }
 }
 

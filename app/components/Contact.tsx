@@ -1,10 +1,10 @@
 "use client";
 
 import { useState, FormEvent, ChangeEvent } from "react";
-import { FaWhatsapp } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 
 interface FormData {
+  name: string;
   email: string;
   phone: string;
   eventType: string;
@@ -12,12 +12,10 @@ interface FormData {
   message: string;
 }
 
-export default function CTA() {
+export default function Contact() {
   const t = useTranslations();
-  const whatsappNumber = "393513184484"; // Format: country code + number (no + or spaces)
-  const whatsappUrl = `https://wa.me/${whatsappNumber}`;
-
   const [formData, setFormData] = useState<FormData>({
+    name: "",
     email: "",
     phone: "",
     eventType: "",
@@ -64,6 +62,7 @@ export default function CTA() {
       // Reset form after 3 seconds
       setTimeout(() => {
         setFormData({
+          name: "",
           email: "",
           phone: "",
           eventType: "",
@@ -84,17 +83,17 @@ export default function CTA() {
   };
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-green-50 to-blue-50">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900">
-          {t("cta.title")}
+    <section className="py-16 sm:py-20 lg:py-24 bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-gray-900">
+          {t("contact.title")}
         </h2>
-        <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-          {t("cta.description")}
+        <p className="text-lg text-gray-600 text-center mb-8 max-w-2xl mx-auto">
+          {t("contact.description")}
         </p>
 
         {isSubmitted ? (
-          <div className="bg-green-50 border-l-4 border-green-400 p-6 rounded-lg mb-6 text-left">
+          <div className="bg-green-50 border-l-4 border-green-400 p-6 rounded-lg mb-6">
             <div className="flex items-center gap-3">
               <span className="text-2xl">✅</span>
               <div>
@@ -108,8 +107,29 @@ export default function CTA() {
             </div>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-6 text-left">
+          <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Name */}
+              <div>
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
+                  {t("contact.fields.name.label")}{" "}
+                  <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  value={formData.name}
+                  onChange={handleChange}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                  placeholder={t("contact.fields.name.placeholder")}
+                />
+              </div>
+
               {/* Email */}
               <div>
                 <label
@@ -240,34 +260,18 @@ export default function CTA() {
               </div>
             )}
 
-            {/* Submit Button and WhatsApp Button */}
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+            {/* Submit Button */}
+            <div className="flex justify-center">
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? t("contact.submitting") : t("contact.submit")}
               </button>
-              
-              <span className="text-gray-600 font-medium">{t("cta.or")}</span>
-              
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-[#25D366] text-white font-semibold rounded-full hover:bg-[#20BA5A] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
-              >
-                <FaWhatsapp className="w-6 h-6" />
-                <span>{t("cta.messageOnWhatsapp")}</span>
-              </a>
             </div>
           </form>
         )}
-
-        <p className="mt-6 text-sm text-gray-500">
-          {t("cta.responseTime")}
-        </p>
       </div>
     </section>
   );

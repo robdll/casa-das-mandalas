@@ -146,7 +146,55 @@
     "title": "Pronto para reservar sua estadia?",
     "description": "Descubra o charme único da Casa das Mandalas. Fale conosco pelo WhatsApp para reservar ou tirar dúvidas instantaneamente.",
     "messageOnWhatsapp": "Enviar mensagem no WhatsApp",
+    "or": "ou",
     "responseTime": "Respondemos em poucos minutos!"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Preencha o formulário abaixo e entraremos em contato o mais breve possível.",
+    "submit": "Enviar Mensagem",
+    "submitting": "Enviando...",
+    "fields": {
+      "name": {
+        "label": "Nome",
+        "placeholder": "Seu nome completo"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "seu.email@exemplo.com"
+      },
+      "phone": {
+        "label": "Telefone",
+        "placeholder": "+39 123 456 7890"
+      },
+      "eventType": {
+        "label": "Tipo de Evento",
+        "placeholder": "Selecione o tipo de evento",
+        "options": {
+          "vacation": "Férias",
+          "business": "Negócios",
+          "romantic": "Fuga Romântica",
+          "other": "Outro"
+        }
+      },
+      "numberOfGuests": {
+        "label": "Número de Hóspedes",
+        "placeholder": "1"
+      },
+      "message": {
+        "label": "Mensagem",
+        "placeholder": "Conte-nos mais sobre sua estadia..."
+      }
+    },
+    "success": {
+      "title": "Mensagem Enviada com Sucesso!",
+      "message": "Entraremos em contato em até 24 horas."
+    },
+    "errors": {
+      "title": "Erro",
+      "submissionFailed": "Falha ao enviar mensagem. Por favor, tente novamente.",
+      "fallback": "Alternativamente, você pode nos contatar diretamente via WhatsApp."
+    }
   }
 }
 

@@ -146,7 +146,55 @@
     "title": "Ready to Book Your Stay?",
     "description": "Experience the unique charm of Casa das Mandalas. Contact us directly via WhatsApp for instant booking or inquiries.",
     "messageOnWhatsapp": "Message on WhatsApp",
+    "or": "or",
     "responseTime": "We typically respond within a few minutes!"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Fill out the form below and we'll get back to you as soon as possible.",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your.email@example.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+39 123 456 7890"
+      },
+      "eventType": {
+        "label": "Event Type",
+        "placeholder": "Select event type",
+        "options": {
+          "vacation": "Vacation",
+          "business": "Business",
+          "romantic": "Romantic Getaway",
+          "other": "Other"
+        }
+      },
+      "numberOfGuests": {
+        "label": "Number of Guests",
+        "placeholder": "1"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us more about your stay..."
+      }
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "message": "We'll get back to you within 24 hours."
+    },
+    "errors": {
+      "title": "Error",
+      "submissionFailed": "Failed to send message. Please try again.",
+      "fallback": "Alternatively, you can contact us directly via WhatsApp."
+    }
   }
 }
 
