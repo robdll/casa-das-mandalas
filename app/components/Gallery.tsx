@@ -11,7 +11,7 @@ export default function Gallery() {
   const images = Array.from({ length: 21 }, (_, i) => {
     const imageNum = i + 1;
     const description = t(`gallery.descriptions.${imageNum}` as any);
-    const imageExtension = i > 11 ? "webp" : "jpg";
+    const imageExtension = i > 10 ? "webp" : "jpg";
     return {
       id: imageNum,
       src: `/images/house_${imageNum}.${imageExtension}`,
