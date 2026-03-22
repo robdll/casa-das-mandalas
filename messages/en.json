@@ -63,6 +63,25 @@
       "21": "Kitchen"
     }
   },
+  "walkableTour": {
+    "title": "Walkable 360° Tour",
+    "description": "Use the highlighted points to walk through each room and explore the apartment naturally.",
+    "scenes": {
+      "entrance": "Entrance",
+      "corridor1": "Corridor 1",
+      "bathroom1": "Bathroom 1",
+      "bathroom2": "Bathroom 2",
+      "corridor2": "Corridor 2",
+      "kitchen1": "Kitchen 1",
+      "kitchen2": "Kitchen 2",
+      "corridor3": "Corridor 3",
+      "bedroom1": "Bedroom 1",
+      "corridor4": "Corridor 4",
+      "living1": "Living 1",
+      "living2": "Living 2",
+      "balcony": "Balcony"
+    }
+  },
   "about": {
     "title": "About Casa das Mandalas",
     "paragraph1": "Welcome to <strong>Casa das Mandalas</strong>, a modern, spotless one‑bedroom apartment in Monza, Italy, curated as a private art gallery. This unique retreat combines the comfort of a home with the inspiration of an art space, featuring over 30 hand‑painted mandala artworks that create a serene and relaxing atmosphere.",

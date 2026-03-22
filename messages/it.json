@@ -63,6 +63,25 @@
       "21": "Cucina"
     }
   },
+  "walkableTour": {
+    "title": "Tour Camminabile 360°",
+    "description": "Usa i punti evidenziati per muoverti tra le stanze ed esplorare l'appartamento in modo naturale.",
+    "scenes": {
+      "entrance": "Ingresso",
+      "corridor1": "Corridoio 1",
+      "bathroom1": "Bagno 1",
+      "bathroom2": "Bagno 2",
+      "corridor2": "Corridoio 2",
+      "kitchen1": "Cucina 1",
+      "kitchen2": "Cucina 2",
+      "corridor3": "Corridoio 3",
+      "bedroom1": "Camera 1",
+      "corridor4": "Corridoio 4",
+      "living1": "Soggiorno 1",
+      "living2": "Soggiorno 2",
+      "balcony": "Balcone"
+    }
+  },
   "about": {
     "title": "Su Casa das Mandalas",
     "paragraph1": "Benvenuti alla <strong>Casa das Mandalas</strong>, un moderno appartamento bilocale a Monza, curato come una piccola galleria d’arte privata. Oltre 30 mandala dipinti a mano creano un’atmosfera rilassante e ispirata.",

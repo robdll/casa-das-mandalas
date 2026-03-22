@@ -63,6 +63,25 @@
       "21": "Cozinha"
     }
   },
+  "walkableTour": {
+    "title": "Tour Caminhável 360°",
+    "description": "Use os pontos destacados para caminhar pelos ambientes e explorar o apartamento de forma natural.",
+    "scenes": {
+      "entrance": "Entrada",
+      "corridor1": "Corredor 1",
+      "bathroom1": "Banheiro 1",
+      "bathroom2": "Banheiro 2",
+      "corridor2": "Corredor 2",
+      "kitchen1": "Cozinha 1",
+      "kitchen2": "Cozinha 2",
+      "corridor3": "Corredor 3",
+      "bedroom1": "Quarto 1",
+      "corridor4": "Corredor 4",
+      "living1": "Sala 1",
+      "living2": "Sala 2",
+      "balcony": "Varanda"
+    }
+  },
   "about": {
     "title": "Sobre a Casa das Mandalas",
     "paragraph1": "Bem-vindo à <strong>Casa das Mandalas</strong>, um moderno e impecável apartamento de um quarto em Monza, Itália, decorado como uma galeria de arte privativa. Mais de 30 mandalas pintadas à mão criam uma atmosfera serena e inspiradora.",
